@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  Narfis
-//
-//  Created by HashtagPro on 6/27/26.
-//
 
 import SwiftUI
 import SwiftData

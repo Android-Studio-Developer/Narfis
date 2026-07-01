@@ -1,9 +1,4 @@
-//
-//  NarfisUITestsLaunchTests.swift
-//  NarfisUITests
-//
-//  Created by HashtagPro on 6/27/26.
-//
+
 
 import XCTest
 

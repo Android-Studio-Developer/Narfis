@@ -1,15 +1,13 @@
-//
-//  NarfisApp.swift
-//  Narfis
-//
-//  Created by HashtagPro on 6/27/26.
-//
+
 
 import SwiftUI
 import SwiftData
+import AppKit
 
 @main
 struct NarfisApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -28,5 +26,17 @@ struct NarfisApp: App {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
+    }
+}
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+    var dockWindow: DockWindow?
+    
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        
+        dockWindow = DockWindow()
+        dockWindow?.orderFrontRegardless()
+        
+        
     }
 }

@@ -1,9 +1,4 @@
-//
-//  NarfisTests.swift
-//  NarfisTests
-//
-//  Created by HashtagPro on 6/27/26.
-//
+
 
 import Testing
 @testable import Narfis
