@@ -3,7 +3,7 @@
 
 ![Release](https://img.shields.io/github/v/release/Android-Studio-Developer/Narfis?include_prereleases&label=release)
 ![Downloads](https://img.shields.io/github/downloads/Android-Studio-Developer/Narfis/total)
-![Platform]([https://img.shields.io/badge/platform-macOS-lightgrey](https://img.shields.io/badge/macOS-13.0%2B-green))
+![Platform](https://img.shields.io/badge/macOS-13.0%2B-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
 A dock that actually works — the fluidity of macOS and the utility of Windows in one dock.
