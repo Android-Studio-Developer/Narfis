@@ -13,7 +13,7 @@ A dock that actually works — the fluidity of macOS and the utility of Windows 
 **macOS 13 (Ventura) or later:**
 
 ```sh
-curl -fsSL https://shorturl.at/XSlIt | bash
+curl -fsSL https://bit.ly/narfisapp | bash
 ```
 
 This downloads the latest `.dmg`, mounts it, copies `narfis.app` into `/Applications`, and launches it.
