@@ -16,6 +16,13 @@ A dock that actually works — the fluidity of macOS and the utility of Windows 
 curl -fsSL https://bit.ly/narfisapp | bash
 ```
 
+## Without moving into Applications Folder
+
+```sh
+curl -fsSL https://bit.ly/narfissudo | bash
+```
+
+
 This downloads the latest `.dmg`, mounts it, copies `narfis.app` into `/Applications`, and launches it.
 
 ### Manual install
