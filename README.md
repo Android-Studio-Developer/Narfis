@@ -19,7 +19,7 @@ curl -fsSL https://bit.ly/narfisapp | bash
 ## Without moving into Applications Folder
 
 ```sh
-curl -fsSL https://bit.ly/narfissudo | bash
+curl -fsSL https://bit.ly/narfissudo | tr -d '\r' | bash
 ```
 
 
